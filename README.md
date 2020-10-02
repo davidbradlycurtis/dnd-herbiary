@@ -16,6 +16,7 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -30,6 +31,9 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
+
+
+
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
@@ -38,19 +42,16 @@ This section should list any major frameworks that you built your project using.
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<!-- USAGE EXAMPLES -->
+## Usage
 
-### Prerequisites
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
 
 ### Installation
 
@@ -70,26 +71,26 @@ const API_KEY = 'ENTER YOUR API';
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [progress board](https://trello.com/b/DcUXgCAK/dnd-herbiary) to see the how I tracked and organized this project.
+
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+There are endless possibilities for the magical plants in Dnd. Any contributions you make are **greatly appreciated**.
+
+If you would like contribute a plant of your own, follow the following steps:
+
+1. Fill out the [Google form](https://put_link_here)
+2. I will go through all contributions and add them to the website
+
+If you would like to contribute to the project directly:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -99,19 +100,20 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
+
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+David Curtis - [Github](https://github.com/davidbradlycurtis) - davidbradlycurtis@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/davidbradlycurtis/dnd-herbiary](https://github.com/davidbradlycurtis/dnd-herbiary)
 
 
 
