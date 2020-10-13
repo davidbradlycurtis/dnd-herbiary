@@ -1,23 +1,30 @@
 /* roboto-regular - latin */
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Adamina';
     font-style: normal;
-    font-weight: 400;
-    src: local('Roboto'), local('Roboto-Regular'),
-      url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    font-weight: normal;
+    src: local('Adamina'), local('Adamina-Regular'),
+      url('../fonts/adamina-regular.ttf') format('ttf');
   }
   
   :root {
-    --nw-green: #006747;
+    --plant-green: #050;
   }
   
   a {
-    color: var(--nw-green);
+    color: var(--plant-green);
+  }
+
+  h1 {
+    margin-top: 2rem;
+    color: var(--plant-green);
+    text-align: center;
   }
   
   h2 {
     margin-top: 2rem;
-    color: var(--nw-green);
+    color: var(--plant-green);
+    text-align: center;
   }
   
   h3 {
@@ -40,8 +47,8 @@
     min-width: 1in;
   }
   
-  .bg-nw-green {
-    background-color: var(--nw-green) !important;
+  .bg-plant-green {
+    background-color: var(--plant-green) !important;
   }
   
   .highlight {
@@ -79,12 +86,12 @@
     border-width: 1px;
     overflow: hidden;
     border-color: darkgrey;
-    background-color: var(--nw-green);
+    background-color: var(--plant-green);
     color: white;
   }
   
   .thead-dark {
-    background-color: var(--nw-green);
+    background-color: var(--plant-green);
     color: white;
   }
   
@@ -145,11 +152,11 @@
   
   .list-group-item-primary {
     color: rgb(255, 255, 255);
-    background-color: var(--nw-green) !important;
+    background-color: var(--plant-green) !important;
   }
   
   .list-group-item-primary > a {
     color: rgb(255, 255, 255);
-    background-color: var(--nw-green) !important;
+    background-color: var(--plant-green) !important;
     text-decoration: underline;
   }
