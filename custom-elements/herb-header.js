@@ -1,3 +1,10 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// herb-header.js
+//
+// David Curtis
+// copyright (c) 2020
+// all rights reserved.
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 class herbHeader extends HTMLElement {
     constructor() {
       super();

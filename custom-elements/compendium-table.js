@@ -1,3 +1,10 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// compendium-table.js
+//
+// David Curtis
+// copyright (c) 2020
+// all rights reserved.
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function drawTable() {
     // get the reference for the body
     var table = document.getElementById('coldiv');
