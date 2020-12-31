@@ -55,7 +55,7 @@
     <main class="container context mt-5">
       <!-- Main grid container-->
       <div class="row">
-        <div class="col">
+        <div class="col" id="coldiv">
 
           <h1 class="h1" >Compendium</h1>
 
@@ -65,7 +65,7 @@
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
-          <table class="table table-striped table-bordered table-hover plant-table">
+          <table id="plant-table" class="table table-striped table-bordered table-hover plant-table">
             <thead>
               <tr>
                 <th scope="col">Name</th>
@@ -95,8 +95,11 @@
               </tr>
             </tbody>
           </table>
+          <compendium-table></compendium-table>
 
     </main>
+    <script defer src="./custom-elements/plant-data/plant-tags.js"></script>
     <script defer src="./custom-elements/herb-header.js"></script>
+    <script defer src="./custom-elements/compendium-table.js"></script>
   </body>
 </html>
