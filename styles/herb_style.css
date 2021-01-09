@@ -23,4 +23,9 @@
 
   .plant-table {
     margin-top: 30pt;
+    width:fit-content
+  }
+
+  .modalTitle {
+    color: var(--plant-green);
   }
