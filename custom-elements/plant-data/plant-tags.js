@@ -9,36 +9,6 @@
 /*
 Each plant will have the following attributes:
 
-   $(function() {
-        $table = $('#table');
-        $table.bootstrapTable({
-          data: plants
-        });
-    });
-
-
-    // get the reference for the body
-    var table = document.getElementById('table');
-
-    // get reference for <table> element
-    var tbody = document.getElementById("tbody");
-
-    // creating rows
-    for (var r = 0; r < plants.length; r++) {
-        var row = document.createElement("tr");
-
-     // create cells in row
-         for (let attribute in plants[r]) {
-            var cell = document.createElement("td"); 
-            var plant = plants[r];
-            cell.innerText = plant[attribute];
-            row.appendChild(cell);
-        }           
-
-        tbody.appendChild(row); // add the row to the end of the table body
-    }
-
-
 name (String): the name of the plant
 biome (arr[String]): the biomes the plant can appear [Rainforest, Temperate Forest, Desert, Tundra, Grassland, Savanna, Underdark, Swamp, Any]
 type (String): the type of plant [Tree, Fungus, Flower, Herb, Moss, Shrub, Weed, Grass]
@@ -58,7 +28,7 @@ property (arr[String]): shorthand special effect of the plant [Hazardous, Benifi
 var plants = [
     {
         name: "Aadarna",
-        biome: "Swamp, Forest",
+        biome: "Forest, Swamp",
         type: "Flower",
         rarity: "Very Rare",
         property: "Material"

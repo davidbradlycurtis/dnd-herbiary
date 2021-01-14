@@ -26,6 +26,24 @@
     width:fit-content
   }
 
-  .modalTitle {
+  .modal-title {
     color: var(--plant-green);
+  }
+
+  .tag-inline {
+    display:inline-block;
+  }
+
+  .tag {
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .tag-text {
+    margin-right:15px;
+    font-size: large;
+  }
+
+  .plant-description {
+    font-size: large;
   }

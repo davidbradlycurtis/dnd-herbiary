@@ -7,9 +7,9 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 /*
 
-Each plant's description stored in a global map:
+Each plant's description stored in a global object:
 
-plant_descriptions: map{name : "Description"}
+plant_descriptions: {name : "Description"}
 
 */
 

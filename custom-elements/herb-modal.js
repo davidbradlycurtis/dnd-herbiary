@@ -11,7 +11,11 @@ function showModal(modalName, row) {
         
         var modal = $(this)
         modal.find('.modal-title').text(row.name)
-        modal.find('.modal-body').text(plant_dscr[row.name.split(" ").join("")])
+        $("#biomeText").text(row.biome)
+        $("#typeText").text(row.type)
+        $("#rarityText").text(row.rarity)
+        $("#propertyText").text(row.property)
+        modal.find('.modal-footer').text(plant_dscr[row.name.split(" ").join("")])
     })
 
     $(modalName).modal('show');
