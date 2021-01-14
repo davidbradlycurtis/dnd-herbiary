@@ -15,7 +15,8 @@ function showModal(modalName, row) {
         $("#typeText").text(row.type)
         $("#rarityText").text(row.rarity)
         $("#propertyText").text(row.property)
-        modal.find('.modal-footer').text(plant_dscr[row.name.split(" ").join("")])
+        modal.find('.modal-footer').text(row.description)
+        //modal.find('.modal-footer').text(plant_dscr[row.name.split(" ").join("")])
     })
 
     $(modalName).modal('show');
